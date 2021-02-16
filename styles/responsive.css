@@ -1,0 +1,66 @@
+@media (max-width:1200px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+    }
+    .img-box {
+        width: cover;
+        height: 100%;
+        border-radius: 7%;
+    }
+    body {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width:898px) {
+    .inp-search-inp {
+        height: 31px;
+        width: 200px;
+    }
+    .inp-date-inp {
+        display: none;
+    }
+    .div-search {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (max-width:899px) {
+    /*android / ios*/
+    .destroy-responsive {
+        display: none;
+    }
+    .drop-conteint {
+        display: none;
+        position: absolute;
+        background-color: #000000;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .drop-conteint a {
+        color: rgb(255, 255, 255);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown:hover .drop-conteint {
+        display: block;
+    }
+}
+
+@media (min-width:900px) {
+    .icon-drop {
+        display: none;
+    }
+}
